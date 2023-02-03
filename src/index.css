@@ -1,0 +1,31 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.form-input {
+  border-radius: 0.25rem;
+  border: gray 1px solid;
+  font-size: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  color: gray;
+  transition: all ease-in-out;
+}
+.eye-icon {
+  position: absolute;
+  font-size: 1.25rem;
+  cursor: pointer;
+  top: 0.75rem;
+  right: 0.75rem;
+}
